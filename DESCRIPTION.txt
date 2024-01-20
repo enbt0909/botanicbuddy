@@ -1,0 +1,42 @@
+Name der App: BotanikBuddy
+
+Ziele der App:
+(1) ein Benutzerhandbuch 
+
+(2) eine API nutzen
+
+(3) APIs wie Trefle API oder Plant.id verwenden
+
+(4) soll eine Suchleiste und Pflegetips haben 
+
+(5) ein Errinnerungskalender für die Pflanzenpflege
+
+(6) DarkMode implementieren
+
+
+//========= 
+(7) Pflanzennotizen um den Wachstum zu verfolgen
+
+(8) eine Comunity um Erfahrungen auszutauschen
+
+(9) Pflanzenquiz 
+
+(10) eine Möglichkeit online zu bestellen
+=========// 
+         
+         
+//======= 
+Die App.jsx-Datei ist die Hauptkomponente unserer Anwendung. Sie verwendet den useState und useEffect Hook von React, um einen Suchbegriff zu speichern und eine API-Anfrage an die Trefle API zu senden, wenn sich der Suchbegriff ändert. Die Daten, die von der API zurückgegeben werden, werden dann in der PlantList-Komponente angezeigt.
+
+Die SearchBar.jsx-Datei ist eine Komponente, die ein Formular mit einem Eingabefeld und einem Button enthält. Wenn das Formular abgesendet wird, wird der aktuelle Wert des Eingabefelds an die setSearchTerm-Funktion übergeben, die in der App-Komponente definiert ist.
+
+Die PlantList.jsx-Datei ist eine Komponente, die eine Liste von Pflanzen anzeigt. Wenn der Benutzer auf eine Pflanze in der Liste klickt, wird eine Funktion aufgerufen, die den Namen der Pflanze in der Konsole ausgibt.
+
+Die UserGuide.jsx-Datei ist eine Komponente, die einige Anweisungen für den Benutzer anzeigt.
+
+Die Kalender.jsx-Datei ist eine Komponente, die das aktuelle Datum anzeigt.
+
+Die App.css und index.css Dateien enthalten den CSS-Code, der den Stil unserer Anwendung definiert.
+
+Die main.jsx-Datei ist der Einstiegspunkt unserer Anwendung. Sie rendert die App-Komponente in das root-Element Ihres HTML-Dokuments.
+=======//
