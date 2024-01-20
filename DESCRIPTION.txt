@@ -26,17 +26,15 @@ Ziele der App:
          
          
 //======= 
-Die App.jsx-Datei ist die Hauptkomponente unserer Anwendung. Sie verwendet den useState und useEffect Hook von React, um einen Suchbegriff zu speichern und eine API-Anfrage an die Trefle API zu senden, wenn sich der Suchbegriff ändert. Die Daten, die von der API zurückgegeben werden, werden dann in der PlantList-Komponente angezeigt.
 
-Die SearchBar.jsx-Datei ist eine Komponente, die ein Formular mit einem Eingabefeld und einem Button enthält. Wenn das Formular abgesendet wird, wird der aktuelle Wert des Eingabefelds an die setSearchTerm-Funktion übergeben, die in der App-Komponente definiert ist.
+PlantList.jsx: Diese Komponente ist dafür verantwortlich, eine Liste von Pflanzen darzustellen. Jede Pflanze in der Liste ist klickbar. Wenn ein Benutzer auf eine Pflanze klickt, wird eine Funktion ausgeführt, die den Namen der Pflanze in der Konsole ausgibt. Dies könnte nützlich sein, um Interaktionen zu verfolgen oder Fehler zu debuggen.
 
-Die PlantList.jsx-Datei ist eine Komponente, die eine Liste von Pflanzen anzeigt. Wenn der Benutzer auf eine Pflanze in der Liste klickt, wird eine Funktion aufgerufen, die den Namen der Pflanze in der Konsole ausgibt.
+UserGuide.jsx: Diese Komponente zeigt Anweisungen für den Benutzer an. Es könnte sich um eine Art Hilfe oder Tutorial handeln, das dem Benutzer zeigt, wie er die Anwendung verwenden kann.
 
-Die UserGuide.jsx-Datei ist eine Komponente, die einige Anweisungen für den Benutzer anzeigt.
+Kalender.jsx: Diese Komponente zeigt das aktuelle Datum an. Es könnte in einem Header, einer Sidebar oder an einer anderen prominenten Stelle in der Anwendung angezeigt werden, um dem Benutzer stets das aktuelle Datum anzuzeigen.
 
-Die Kalender.jsx-Datei ist eine Komponente, die das aktuelle Datum anzeigt.
+App.css und index.css: Diese Dateien enthalten den CSS-Code, der das Aussehen und das Gefühl der Anwendung definiert. Die können Farben, Schriftarten, Layouts und andere visuelle Aspekte der Anwendung steuern.
 
-Die App.css und index.css Dateien enthalten den CSS-Code, der den Stil unserer Anwendung definiert.
+main.jsx: Dies ist der Einstiegspunkt der Anwendung. Es ist die erste Datei, die ausgeführt wird, wenn die Anwendung gestartet wird. Es rendert die Haupt-App-Komponente in das root-Element des HTML-Dokuments, was den Beginn des Rendering-Prozesses der Anwendung darstellt.
 
-Die main.jsx-Datei ist der Einstiegspunkt unserer Anwendung. Sie rendert die App-Komponente in das root-Element Ihres HTML-Dokuments.
 =======//
