@@ -4,7 +4,7 @@ import SearchBar from "./components/SearchBar.jsx";
 import PlantList from "./components/PlantList.jsx";
 import UserGuide from "./components/UserGuide.jsx";
 import Calender from "./components/Calender.jsx";
-import Pflegetips from "./components/Pflegetips.jsx";
+import Textcontent from "./components/Textcontent.jsx";
 import Home from "./components/Home.jsx";
 import zweig from "./images/zweig.png";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -39,7 +39,7 @@ function App() {
         <Routes>
           <Route path="/" element={<PlantList plantData={plantData} />} />
           <Route path="/guide" element={<UserGuide />} />
-          <Route path="/tips" element={<Pflegetips />} />
+          <Route path="/home" element={<Textcontent />} />
           <Route path="/calender" element={<Calender />} />
         </Routes>
       </div>

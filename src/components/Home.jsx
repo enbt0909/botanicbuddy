@@ -10,6 +10,7 @@ const Home = () => {
           <li><Link to="/calender">CALENDER</Link></li>
         </ul>
       </nav>
+    
     )
 }
  
