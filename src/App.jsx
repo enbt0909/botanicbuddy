@@ -44,14 +44,7 @@ function App() {
         </Routes>
       </div>
       <div className="box-left">
-        <span>
-          BOT
-          <br />
-          ANIK
-          <br />
-          BUD
-          <br />
-          DY
+        <span>BOT<br/>ANIK<br/>BUD<br/>DY
         </span>
         <img src={zweig} alt="Bild" />
       </div>

@@ -104,6 +104,16 @@ form input {
   text-align: center;
 }
 
+.text-box{
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 200px;
+  margin-left: 50vw;
+ margin-bottom: 50rem;
+  position: relative;
+}
+
 .calender {
   display: flex;
   justify-content: center;
@@ -154,18 +164,24 @@ form input {
 }
 
 .plant-list {
-  display: flex;
+ /*  display: flex; */
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+ /*  align-items: center; */
+ text-align: justify;
   color: rgb(0, 0, 0);
-  font-size: 18px;
-  height: 50vh;
+  font-size: 1.5rem;
+  padding: 1rem;
 }
 
 .plant-image {
-  width: 60%;
-  height: 60%;
-
-  
+  width: 70%;
+  height: auto;
+padding: 1rem;
+}
+.plant-list p{
+  padding-left: 2rem;
+}
+.plant-list h2{
+  padding-left: 2rem;
 }
