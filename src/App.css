@@ -38,32 +38,28 @@ h3 {
 }
 
 .box-left {
-  width: 45vw;
+  width: 35vw;
   height: 88vh;
   display: flex;
   justify-content: center;
-  text-align: center;
- /*  position: relative; */
-  padding-top: 12vh;
+  align-items: center;
+  position: relative;
+  padding-top: 12rem;
 }
 .box-left img {
-  width:30%;
-  height: auto;
-  margin-top: 12rem;
-  margin-right: 10rem;
+  width: 100%;
   position: absolute;
+  border: solid 10px black;
 }
 .box-left span {
-  width: 50%;
-  height: 50%;
-  position: absolute;
-  font-size: 14rem;
+  font-size: 8vw;
   font-weight: 700;
-  margin-right: 25rem;
-  padding-top: 5rem;
   text-align: center;
-  text-decoration: underline;
+  border-radius: 20px;
+  position: absolute;
   color: rgb(255, 255, 255, 0.5);
+  text-align: center;
+  /* text-decoration: underline 2px solid #0f0; */
 }
 
 .nav {
@@ -166,6 +162,33 @@ form input {
 .plant-image {
   width: 60%;
   height: 60%;
-
-  
 }
+
+.box-right {
+  width: 45vw;
+  height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 12vh;
+  background-color: #1f3905;
+}
+
+/* ************** */
+
+.test2 {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  position: absolute;
+  /* width: 60vw; */
+  height: 75vh;
+  top: 0;
+  left: 68%;
+  transform: translate(-50%, 20%);
+  font-size: 1.8rem;
+  text-align: center;
+  border: 3px solid black;
+} 
