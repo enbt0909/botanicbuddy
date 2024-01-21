@@ -7,7 +7,7 @@ Ziele der App:
 
 (3) APIs wie Trefle API oder Plant.id verwenden
 
-(4) soll eine Suchleiste und Pflanzensuche haben 
+(4) soll eine Suchleiste und Pflanzensuche haben (beim enter drucken ---> PFLANZENSUCHE)
 
 (5) ein Errinnerungskalender für die Pflanzenpflege
 
