@@ -3,7 +3,7 @@ import axios from "axios";
 import SearchBar from "./components/SearchBar.jsx";
 import PlantList from "./components/PlantList.jsx";
 import UserGuide from "./components/UserGuide.jsx";
-import Calender from "./components/Calender.jsx";
+import Calendar from "./components/Calendar.jsx";
 import Textcontent from "./components/Textcontent.jsx";
 import Home from "./components/Home.jsx";
 import zweig from "./images/zweig.png";
@@ -37,10 +37,10 @@ function App() {
         <SearchBar setSearchTerm={setSearchTerm} />
         <Home className="home" />
         <Routes>
-          <Route path="/" element={<PlantList plantData={plantData} />} />
+          <Route path="/pflanzensuche" element={<PlantList plantData={plantData} />} />
           <Route path="/guide" element={<UserGuide />} />
           <Route path="/home" element={<Textcontent />} />
-          <Route path="/calender" element={<Calender />} />
+          <Route path="/calendar" element={<Calendar/>} />
         </Routes>
       </div>
       <div className="box-left">

@@ -4,10 +4,10 @@ const Home = () => {
     return (
         <nav className='nav'>
         <ul>
-          <li><Link to="/home">HOME</Link></li>
-          <li><Link to="/">PFLANZENSUCHE</Link></li>
-          <li><Link to="/guide">GUIDE</Link></li>
-          <li><Link to="/calender">CALENDER</Link></li>
+          <li><Link to="/home">STARTSEITE</Link></li>
+          <li><Link to="/pflanzensuche">PFLANZENSUCHE</Link></li>
+          <li><Link to="/guide">RATGEBER</Link></li>
+          <li><Link to="/calendar">KALENDER</Link></li>
         </ul>
       </nav>
     
