@@ -12,7 +12,7 @@ const Home = () => {
           <li><Link to="/calendar">KALENDER</Link></li>
         </ul>
       </nav>
-      </div> // Add closing tag for the div element
+      </div>
     </div>
   );
 }

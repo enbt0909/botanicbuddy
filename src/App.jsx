@@ -37,15 +37,16 @@ function App() {
         <SearchBar setSearchTerm={setSearchTerm} />
         <Home className="home" />
         <Routes>
+          <Route path="/" element={<Textcontent />} />
           <Route path="/pflanzensuche" element={<PlantList plantData={plantData} />} />
           <Route path="/guide" element={<UserGuide />} />
           <Route path="/home" element={<Textcontent />} />
-          <Route path="/calendar" element={<Calendar/>} />
+          <Route path="/calendar" element={<Calendar />} />
         </Routes>
       </div>
 
       <div className="box-left">
-        <span>BOT<br/>ANIK<br/>BUD<br/>DY
+        <span>BOT<br />ANIK<br />BUD<br />DY
         </span>
         <img src={zweig} alt="Bild" />
       </div>

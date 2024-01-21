@@ -47,7 +47,7 @@ h3 {
   /* top: 1vh; */
   padding-top: 12rem;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .box-left {
     width: 100vw;
     height: 88vh;
@@ -58,11 +58,11 @@ h3 {
     top: 1vh;
     padding-top: 12rem;
   }
-}
+} */
 .box-left img {
   width: 100%;
   position: absolute;
-  border: solid 10px black;
+  /* border: solid 10px black; */
 }
 .box-left span {
   font-size: 8vw;
