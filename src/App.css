@@ -68,16 +68,13 @@ h3 {
   font-size: 8vw;
   font-weight: 700;
   text-align: center;
-<<<<<<< HEAD
   border-radius: 20px;
   position: absolute;
   color: rgb(255, 255, 255, 0.5);
   text-align: center;
   /* text-decoration: underline 2px solid #0f0; */
-=======
   text-decoration: underline;
   color: rgb(255, 255, 255, 0.2);
->>>>>>> main
 }
 
 .nav {
@@ -119,13 +116,13 @@ form input {
   padding: 1rem;
 }
 
-.text-box{
+.text-box {
   display: flex;
   justify-content: center;
   width: 500px;
   height: 200px;
   margin-left: 50vw;
- margin-bottom: 50rem;
+  margin-bottom: 50rem;
   position: relative;
 }
 
@@ -156,17 +153,16 @@ form input {
   position: absolute;
   overflow-x: hidden;
   overflow-y: auto;
- /*  border: 0.1rem solid black; */
+  /*  border: 0.1rem solid black; */
   border-radius: 0.5rem;
   box-shadow: 15px 15px 10px 3px rgba(17, 70, 14, 0.75);
   background-image: url(./images/birch.jpg);
   background-size: cover;
 }
 
-
 .plant-container::-webkit-scrollbar {
-  width: 1rem; 
-  height: 1rem; 
+  width: 1rem;
+  height: 1rem;
   background-color: #1f3905;
   border-radius: 0.2rem;
 }
@@ -175,8 +171,7 @@ form input {
   background-color: #83a25b;
   outline: 1px solid rgb(1, 2, 1);
   border-radius: 0.2rem;
-} 
-
+}
 
 .plant-list {
   display: flex;
@@ -188,27 +183,25 @@ form input {
 }
 
 .plant-image {
-<<<<<<< HEAD
   width: 60%;
   height: 60%;
-=======
   width: 100%;
   height: auto;
   padding: 2rem 0 2rem 0;
   background-color: rgb(255, 255, 255, 0.5);
 }
-.plant-list p{
+.plant-list p {
   padding-left: 2rem;
   font-size: 1vw;
   background-color: rgb(255, 255, 255, 0.5);
 }
-.plant-list h2{
+.plant-list h2 {
   font-size: 1.5vw;
   padding-left: 2rem;
   background-color: rgb(255, 255, 255, 0.5);
 }
 
-.text-box{
+.text-box {
   display: flex;
   justify-content: center;
   position: absolute;
@@ -216,15 +209,14 @@ form input {
   height: 60vh;
   margin-left: 35vw;
   margin-top: 160vh;
-  
 }
-.text-box p{
+.text-box p {
   padding: 1vw;
   text-align: start;
-  font-size: 1.0vw;
+  font-size: 1vw;
 }
 
-.text-box-guide{
+.text-box-guide {
   display: flex;
   justify-content: center;
   position: absolute;
@@ -233,8 +225,8 @@ form input {
   margin-left: 35vw;
   margin-top: 100vh;
 }
-.text-box-guide p{
+.text-box-guide p {
   padding: 1vw;
   text-align: start;
-  font-size: 1.0vw;
+  font-size: 1vw;
 }
