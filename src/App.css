@@ -68,11 +68,16 @@ h3 {
   font-size: 8vw;
   font-weight: 700;
   text-align: center;
+<<<<<<< HEAD
   border-radius: 20px;
   position: absolute;
   color: rgb(255, 255, 255, 0.5);
   text-align: center;
   /* text-decoration: underline 2px solid #0f0; */
+=======
+  text-decoration: underline;
+  color: rgb(255, 255, 255, 0.2);
+>>>>>>> main
 }
 
 .nav {
@@ -84,7 +89,7 @@ h3 {
 }
 .nav li {
   list-style: none;
-  padding: 4rem;
+  padding: 6rem;
 }
 .nav a {
   text-decoration: none;
@@ -111,6 +116,17 @@ form input {
   color: white;
   background-color: #1f3905;
   text-align: center;
+  padding: 1rem;
+}
+
+.text-box{
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 200px;
+  margin-left: 50vw;
+ margin-bottom: 50rem;
+  position: relative;
 }
 
 .calender {
@@ -153,28 +169,74 @@ form input {
 }
 
 .plant-container {
-  width: 50vw;
-  height: 60vh;
-  margin-top: 80rem;
-  margin-left: 80rem;
+  width: 35%;
+  height: 50vh;
+  margin-top: 90rem;
+  margin-left: 60rem;
   position: absolute;
   overflow-x: hidden;
   overflow-y: auto;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
 }
+
+.plant-container::-webkit-scrollbar {
+  width: 1rem; 
+  height: 1rem; 
+  background-color: #1f3905;
+  border-radius: 0.2rem;
+}
+
+.plant-container::-webkit-scrollbar-thumb {
+  background-color: #83a25b;
+  outline: px solid rgb(1, 2, 1);
+  border-radius: 0.2rem;
+} 
+
 
 .plant-list {
   display: flex;
+  width: 100%;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: justify;
   color: rgb(0, 0, 0);
-  font-size: 18px;
-  height: 50vh;
+  font-size: 1.5rem;
+
 }
 
 .plant-image {
+<<<<<<< HEAD
   width: 60%;
   height: 60%;
+=======
+  width: 100%;
+  height: auto;
+}
+.plant-list p{
+  padding-left: 2rem;
+  margin-bottom: 0.5rem;
+}
+.plant-list h2{
+  padding-left: 2rem;
+  margin-top: 2rem;
+}
+
+.text-box{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 50vw;
+  height: 60vh;
+  margin-left: 35vw;
+  margin-top: 160vh;
+  font-size: 2rem;
+ /*  border: 1px solid black;
+  border-radius: 1rem; */
+}
+.text-box p{
+  padding: 2rem;
+  text-align: justify;
+>>>>>>> main
 }
 
 .box-right {
