@@ -44,7 +44,20 @@ h3 {
   justify-content: center;
   align-items: center;
   position: relative;
+  /* top: 1vh; */
   padding-top: 12rem;
+}
+@media (max-width: 768px) {
+  .box-left {
+    width: 100vw;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 1vh;
+    padding-top: 12rem;
+  }
 }
 .box-left img {
   width: 100%;
