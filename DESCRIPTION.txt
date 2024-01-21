@@ -7,21 +7,19 @@ Ziele der App:
 
 (3) APIs wie Trefle API oder Plant.id verwenden
 
-(4) soll eine Suchleiste und Pflegetips haben 
+(4) soll eine Suchleiste und Pflanzensuche haben 
 
 (5) ein Errinnerungskalender für die Pflanzenpflege
 
-(6) DarkMode implementieren
+(6) DarkMode implementieren?.......
 
 
 //========= 
 (7) Pflanzennotizen um den Wachstum zu verfolgen
 
-(8) eine Comunity um Erfahrungen auszutauschen
+(8) eine Comunity um Erfahrungen auszutauschen ?.......
 
-(9) Pflanzenquiz 
 
-(10) eine Möglichkeit online zu bestellen
 
 =========// 
 
