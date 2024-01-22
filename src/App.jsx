@@ -8,6 +8,12 @@ import Textcontent from "./components/Textcontent.jsx";
 import Home from "./components/Home.jsx";
 import zweig from "./images/zweig.png";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+
+import 'react-calendar/dist/Calendar.css';
+
+import 'react-toastify/dist/ReactToastify.css';
+
 import "./App.css";
 import "./index.css";
 
