@@ -1,11 +1,14 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function SearchBar({ setSearchTerm }) {
   const [inputValue, setInputValue] = useState("");
+  const navigate = useNavigate();
 
   const handleSearch = (event) => {
     event.preventDefault();
     setSearchTerm(inputValue);
+    navigate('/pflanzensuche');
   };
 
   return (

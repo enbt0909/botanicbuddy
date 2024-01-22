@@ -1,11 +1,13 @@
+:root {
+  font-size: 62.5%;
+  @import url("https://fonts.googleapis.com/css?family=Ubuntu");
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-:root {
-  font-size: 62.5%;
 }
 
 body {
@@ -26,6 +28,7 @@ body {
   right: 0;
   gap: 8rem;
 }
+
 h1 {
   font-size: 3rem;
   font-weight: 500;
@@ -38,32 +41,36 @@ h3 {
 }
 
 .box-left {
-  width: 45vw;
+  width: 35vw;
   height: 88vh;
   display: flex;
   justify-content: center;
   text-align: center;
- /*  position: relative; */
-  padding-top: 12vh;
+  position: relative;
+  top: 12vh;
 }
+
 .box-left img {
-  width:30%;
-  height: auto;
-  margin-top: 12rem;
-  margin-right: 10rem;
+  width: 95%;
   position: absolute;
+  top: 5vh;
 }
+
 .box-left span {
-  width: 50%;
-  height: 50%;
   position: absolute;
-  font-size: 14rem;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 8vw;
   font-weight: 700;
-  margin-right: 25rem;
-  padding-top: 5rem;
+  padding-top: 4vh;
   text-align: center;
-  text-decoration: underline;
-  color: rgb(255, 255, 255, 0.2);
+  text-decoration: underline 0.5rem;
+  color: rgb(255, 255, 255, 0.4);
+}
+
+p {
+  font-weight: bold;
+  color: #0f0f0f;
+  text-align: center;
 }
 
 .nav {
@@ -73,15 +80,6 @@ h3 {
   height: 8vh;
   width: 100%;
 }
-.nav li {
-  list-style: none;
-  padding: 6rem;
-}
-.nav a {
-  text-decoration: none;
-  color: black;
-  cursor: pointer;
-}
 
 nav ul {
   display: flex;
@@ -90,86 +88,75 @@ nav ul {
   font-size: 1.5rem;
 }
 
+.nav li {
+  list-style: none;
+  padding: 6rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.nav a:hover {
+  text-decoration: none;
+  color: #b8d8a9;
+  text-shadow: 0.1rem 0.1rem 0.1rem #000d15;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
 form {
   margin-left: 10rem;
 }
 
 form input {
-  width: 20rem;
-  height: 3rem;
+  width: 15vw;
+  height: 4vh;
   border-radius: 2rem;
   border: none;
   color: white;
+  font-size: 1.8rem;
   background-color: #1f3905;
   text-align: center;
   padding: 1rem;
 }
 
-.text-box{
-  display: flex;
-  justify-content: center;
-  width: 500px;
-  height: 200px;
-  margin-left: 50vw;
- margin-bottom: 50rem;
-  position: relative;
-}
-
-.calendar {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  width: 20vw;
-  height: 40vh;
-  margin-left: 40vw;
-  margin-top: 90vh;
-  box-shadow: 15px 15px 10px 3px rgba(17, 70, 14, 0.75);
-}
-
-.react-calendar {
-  width: 100%;
-  height: 100%;
-  border: 0.1rem solid black;
-  border-radius: 0.5rem;
-  background-color: #f3f3f3;
-}
-
 .plant-container {
-  width: 40%;
-  height: 50vh;
-  margin-top: 90rem;
-  margin-left: 60rem;
   position: absolute;
   overflow-x: hidden;
   overflow-y: auto;
- /*  border: 0.1rem solid black; */
   border-radius: 0.5rem;
-  box-shadow: 15px 15px 10px 3px rgba(17, 70, 14, 0.75);
-  background-image: url(./images/birch.jpg);
+  box-shadow: 1.5rem 3rem 1rem 0.5rem rgba(17, 70, 14, 0.45);
+  background-image: url(/src/images/birch.jpg);
   background-size: cover;
+  transform: translate(40%, 65%);
+  width: 50vw;
+  height: 75vh;
 }
 
-
 .plant-container::-webkit-scrollbar {
-  width: 1rem; 
-  height: 1rem; 
+  width: 1rem;
+  height: 1rem;
   background-color: #1f3905;
   border-radius: 0.2rem;
 }
 
 .plant-container::-webkit-scrollbar-thumb {
   background-color: #83a25b;
-  outline: 1px solid rgb(1, 2, 1);
+  outline: 0.1rem solid rgb(1, 2, 1);
   border-radius: 0.2rem;
-} 
-
+}
 
 .plant-list {
   display: flex;
   width: 100%;
   flex-direction: column;
   text-align: justify;
-  color: rgb(3, 31, 8);
+  color: rgb(3, 35, 8);
   font-weight: 900;
 }
 
@@ -179,44 +166,176 @@ form input {
   padding: 2rem 0 2rem 0;
   background-color: rgb(255, 255, 255, 0.5);
 }
-.plant-list p{
+
+.plant-list p {
   padding-left: 2rem;
   font-size: 1vw;
   background-color: rgb(255, 255, 255, 0.5);
 }
-.plant-list h2{
+
+.plant-list h2 {
   font-size: 1.5vw;
   padding-left: 2rem;
   background-color: rgb(255, 255, 255, 0.5);
 }
 
-.text-box{
+.text-box,
+.text-box-guide {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   position: absolute;
-  width: 50vw;
-  height: 60vh;
-  margin-left: 35vw;
-  margin-top: 160vh;
-  
-}
-.text-box p{
-  padding: 1vw;
-  text-align: start;
-  font-size: 1.0vw;
+  top: 15vh;
+  right: 5vw;
+  width: 60vw;
+  height: max-content;
 }
 
-.text-box-guide{
+.text-box {
+  top: 28.4vh;
+}
+
+.text-box p,
+.text-box-guide p {
+  padding: 2% 5%;
+  text-align: justify;
+  font-size: 1.2vw;
+}
+.text-box p {
+  font-size: 1.2vw;
+}
+
+.calendar {
+  position: absolute;
+  transform: translate(50%, 75%);
+  width: 40vw;
+  height: 55vh;
+  border: solid 0.1rem black;
+}
+
+.react-calendar {
   display: flex;
   justify-content: center;
-  position: absolute;
-  width: 50vw;
-  height: 60vh;
-  margin-left: 35vw;
-  margin-top: 100vh;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 120%;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  background-color: #83a25b;
+  font-size: 4rem;
+  padding: 2.5rem;
+  box-shadow: 1.5rem 3rem 1rem 0.5rem rgba(17, 70, 14, 0.45);
 }
-.text-box-guide p{
-  padding: 1vw;
-  text-align: start;
-  font-size: 1.0vw;
+
+.react-calendar__month-view__days__day {
+  font-size: 2rem;
+  padding: 1rem;
+}
+.react-calendar__month-view__days__day:hover {
+  color: #198bd1;
+  font-style: oblique;
+  transform: scale(1.1);
+}
+
+.react-calendar__tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 0.4rem;
+  height: 5rem;
+}
+.react-calendar__tile:hover {
+  background-color: #b8d8a9;
+}
+
+.react-calendar__navigation {
+  font-size: 3rem;
+  padding: 1rem;
+  height: max-content;
+}
+
+.react-calendar__navigation__label__labelText.react-calendar__navigation__label__labelText--from {
+  font-size: 5rem;
+  width: 100%;
+}
+
+.react-calendar button {
+  font-size: 3rem;
+  padding: 2.5rem;
+  border-radius: 0.5rem;
+}
+
+.react-calendar__navigation__prev-button,
+.react-calendar__navigation__next-button {
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+.react-calendar__navigation__prev-button:hover,
+.react-calendar__navigation__next-button:hover {
+  background-color: #d0dbcb;
+  border-radius: 0.5rem;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: red;
+}
+
+.react-calendar__tile.react-calendar__year-view__months__month {
+  font-size: 4rem;
+  padding: 4rem;
+}
+
+.react-calendar__tile.react-calendar__year-view__months__month:hover {
+  background-color: #b8d8a9;
+  border-radius: 0.5rem;
+  color: #000d15;
+  font-style: oblique;
+  transform: scale(1.1);
+}
+
+abbr[aria-label] {
+  border-bottom: 0.1rem dotted;
+}
+
+abbr[aria-label]:hover {
+  color: #ffffff;
+  background-color: #198bd1;
+  padding: 25%;
+  border-radius: 0.5rem;
+}
+
+.appointments {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  gap: 1rem;
+  position: absolute;
+  transform: translate(-100%, -90%);
+}
+
+.appointments div {
+  background-color: lightgray;
+  margin: 1rem;
+  padding: 1rem;
+  width: 10vw;
+  border: solid 0.1rem #000;
+}
+
+.appointments p {
+  color: blue;
+}
+
+.appointments button {
+  background-color: red;
+  color: rgb(255, 255, 255);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
 }

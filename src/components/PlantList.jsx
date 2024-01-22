@@ -1,15 +1,12 @@
 import { useRef } from 'react';
 
 function PlantList({ plantData }) {
-  // Erstellen Sie eine Ref für den Container
   const containerRef = useRef(null);
 
   const handleClick = (plant) => {
     console.log("Sie haben auf die Pflanze geklickt: ", plant);
-
-    // Steuern Sie das Scrollen, wenn der Container existiert
     if (containerRef.current) {
-      containerRef.current.scrollTop = 100;
+      containerRef.current.scrollTop = 200;
     }
   };
 
