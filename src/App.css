@@ -3,6 +3,7 @@
   @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 }
 
+
 * {
   margin: 0;
   padding: 0;
@@ -63,17 +64,13 @@ h3 {
   padding-top: 4vh;
   text-align: center;
   text-decoration: underline 0.5rem;
-  color: rgb(255, 255, 255, 0.2);
-  text-shadow: -0.1rem -0.1rem 0.3rem #020202, 0.2rem 0.2rem 0.4rem #1b1b1b;
+  color: rgb(255, 255, 255, 0.4);
 }
 
 p {
-  font-family: "Ubuntu", sans-serif;
   font-weight: bold;
   color: #0f0f0f;
   text-align: center;
-  letter-spacing: 0.15rem;
-  margin: 4rem auto;
 }
 
 .nav {
@@ -118,7 +115,7 @@ form {
 
 form input {
   width: 15vw;
-  height: 5vh;
+  height: 4vh;
   border-radius: 2rem;
   border: none;
   color: white;
@@ -188,14 +185,14 @@ form input {
   flex-direction: column;
   justify-content: center;
   position: absolute;
-  top: 7vh;
+  top: 15vh;
   right: 5vw;
   width: 60vw;
   height: max-content;
 }
 
 .text-box {
-  top: 10.4vh;
+  top: 28.4vh;
 }
 
 .text-box p,
