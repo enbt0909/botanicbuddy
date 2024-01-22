@@ -6,7 +6,7 @@ function PlantList({ plantData }) {
   const handleClick = (plant) => {
     console.log("Sie haben auf die Pflanze geklickt: ", plant);
     if (containerRef.current) {
-      containerRef.current.scrollTop = 100;
+      containerRef.current.scrollTop = 200;
     }
   };
 
