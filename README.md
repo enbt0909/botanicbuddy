@@ -37,3 +37,4 @@ Nach dem Start der App können Sie den Namen einer Pflanze in die Suchleiste ein
 ## Wusstest du schon?
 
 Wusstest du, dass das Wort "Botanik" vom griechischen Wort "botane" stammt, was "Pflanze" bedeutet? Pflanzen sind doch erstaunlich, oder?
+# botanicbuddy
