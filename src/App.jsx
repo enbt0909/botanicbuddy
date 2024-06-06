@@ -20,9 +20,11 @@ function App() {
   useEffect(() => {
     if (searchTerm) {
       axios
-        .get(
-          `/api/api/v1/plants/search?q=${searchTerm}&token=5YfxpO5BodGBNcA51aO7GOk-eo3ntdSWhZlZGsVs8Ro`
-        )
+        .get(`/api/api/v1/plants/search?q=${searchTerm}`, {
+          headers: {
+            Authorization: `Bearer ${import.meta.env.VITE_APP_API_TOKEN}`
+          }
+        })
         .then((response) => {
           setPlantData(response.data.data);
         })
@@ -31,6 +33,7 @@ function App() {
         });
     }
   }, [searchTerm]);
+
 
   return (
     <Router>
